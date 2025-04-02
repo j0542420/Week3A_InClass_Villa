@@ -42,6 +42,7 @@ for (let i=0;i<reviews.length;i++){
       <table>
 
       </table>
+      /* step 6C adding htmlCode to the value of revieCode*/
       reviewCode += "<caption>" + reviewTitles[i] + "</Caption>";
       reviewCode += "<tr><th>By</th><td" + reviewers[i] + "</td></tr>";
       reviewCode += "<tr><th>Review Date<>/th<td>" + reviewDates[i] + "</td></tr>";
